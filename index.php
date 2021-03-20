@@ -13,8 +13,28 @@
   <link rel="stylesheet" href="./font-awesome/css/fontawesome.css">
   <link rel="stylesheet" href="./font-awesome/css/brands.css">
   <link rel="stylesheet" href="./font-awesome/css/solid.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <title>CO</title>
     <style>
+    #myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: 0; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  background-color: 0;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
       .navbar-nav {
         padding-right: 80px;
       }
@@ -42,10 +62,12 @@
 
       #mycarousel{
         height: 100vh;
+        padding-top : -150px;
       }
       
       .carousel-item {
         height: 100vh;
+      
       }
 
       section{
@@ -137,21 +159,21 @@
 }
 .card {
   margin-right : 0px;
-  margin-top: 150px;
+  margin-top: 75px;
   padding : 0px;
 }
     </style>
     </head>
     <body data-spy="scroll" data-target="#navbar">
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-  <a class="navbar-brand" href="#">Catalog Otomotif</a>
+  <a class="navbar-brand font-weight-bolder" href="#">Catalog Otomotif</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-    <li class="nav-item">
+    <ul class="navbar-nav ml-auto font-weight-bolder">
+    <li class="nav-item ">
             <a class="nav-link" href="#home">Home</a>
           </li>
 
@@ -173,13 +195,13 @@
 <div id="mycarousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="image/1.jpg" class="d-block w-100" alt="...">
+      <img src="image/6.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="image/2.jpg" class="d-block w-100" alt="...">
+      <img src="image/7.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="image/4.jpg" class="d-block w-100" alt="...">
+      <img src="image/8.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
@@ -290,7 +312,7 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-lg-4">
+        <div class="col-lg-6">
           <div class="card border-primary mb-3 text-center">
           <img src="image/maps.jpg" alt="">
           </div>
@@ -348,11 +370,6 @@
       <div class="container">
         <div class="row py-4 d-flex align-items-center">
           <div class="col-md-12 text-center">
-            <a href="#"><i class="fab fa-facebook fa-2x text-white mr-5"></i></a>
-            <a href="#"><i class="fab fa-google-plus-g fa-2x text-white mr-5"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-2x text-white mr-5"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-2x text-white mr-5"></i></a>
-            <a href="#"></a>
           </div>
         </div>
       </div>
@@ -370,23 +387,31 @@
           <p class="mt-2">Tel. +021 237 313</p>
         </div>
         <div class="col-md-2 mx-auto mb-4">
-          <h6 class="text-uppercase font-weight-bold">The Provider</h6>
+          <h6 class="text-uppercase font-weight-bold">Information</h6>
           <hr class="bg-secondary mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height:2px;">
           <ul class="list-unstyled">
-            <li class="my-2"><a href="#">Tes1</a></li>
-            <li class="my-2"><a href="#">Tes1</a></li>
-            <li class="my-2"><a href="#">Tes1</a></li>
-            <li class="my-2"><a href="#">Tes1</a></li>
+            <li class="my-2"><a href="#">Original Catalogs</a></li>
+            <li class="my-2"><a href="#">Maintenance</a></li>
+            <li class="my-2"><a href="#">Battery</a></li>
+            <li class="my-2"><a href="#">Disks</a></li>
+            <li class="my-2"><a href="#">Tires</a></li>
+            <li class="my-2"><a href="#">Autochemistry</a></li>
+            <li class="my-2"><a href="#">Oils</a></li>
+            <li class="my-2"><a href="#">Accessoriesdisks</a></li>
+            <li class="my-2"><a href="#">car light</a></li>
+            <li class="my-2"><a href="#">Aftermarket</a></li>
+            <li class="my-2"><a href="#">Feedback</a></li>
           </ul>
         </div>
         <div class="col-md-2 mx-auto mb-4">
-          <h6 class="text-uppercase font-weight-bold">The Provider</h6>
+          <h6 class="text-uppercase font-weight-bold">Customer Service</h6>
           <hr class="bg-secondary mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height:2px;">
           <ul class="list-unstyled">
-            <li class="my-2"><a href="#">Tes1</a></li>
-            <li class="my-2"><a href="#">Tes1</a></li>
-            <li class="my-2"><a href="#">Tes1</a></li>
-            <li class="my-2"><a href="#">Tes1</a></li>
+            <li class="my-2"><a href="#">Sign In</a></li>
+            <li class="my-2"><a href="#">Sign Up</a></li>
+            <li class="my-2"><a href="#">My account</a></li>
+            <li class="my-2"><a href="#">How it works</a></li>
+            <li class="my-2"><a href="#">Contact Us</a></li>
           </ul>
         </div>
         <div class="col-md-3 mx-auto mb-4">
@@ -406,6 +431,8 @@
         </p>
       </div>
   </footer>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi-arrow-up-circle" style="color: black; font-size: 3rem; background-color: 0;"></i></button>
+
 
 
 <script src="./js/jquery/jquery.min.js"></script>
@@ -417,5 +444,25 @@
   <script src="./font-awesome/js/brands.js"></script>
   <script src="./font-awesome/js/solid.js"></script>
   <script src="./font-awesome/js/fontawesome.js"></script>
+  <script>//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}</script>
+  
     </body>
 </html>
