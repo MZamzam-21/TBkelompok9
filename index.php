@@ -8,161 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="./font-awesome/css/all.css">
   <link rel="stylesheet" href="./font-awesome/css/fontawesome.css">
   <link rel="stylesheet" href="./font-awesome/css/brands.css">
   <link rel="stylesheet" href="./font-awesome/css/solid.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <title>CO</title>
-    <style>
-    #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  color: 0; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-  background-color: 0;
-}
-
-#myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
-}
-      .navbar-nav {
-        padding-right: 80px;
-      }
-
-      .nav-item {
-        padding-right: 10px;
-      }
-
-      .bg-light {
-        background-color: rgba(0,0,0,0) !important ;
-      }
-
-      .bg-nontrans {
-        background-color: rgba(255,255,255,1) !important ;
-      }
-
-      @media screen and (max-width: 576px){
-        .bg-light {
-          background-color: rgba(255,255,255,1) !important ;
-        }
-        #home{
-          margin-top: 55px;
-        } 
-      }
-
-      #mycarousel{
-        height: 100vh;
-        padding-top : -150px;
-      }
-      
-      .carousel-item {
-        height: 100vh;
-      
-      }
-
-      section{
-        padding-top : 50px;
-        padding-bottom : 50px;
-      }
-
-      #home{
-        padding-top : 0px;
-        padding-bottom : 0px;
-      }
-
-      #about, #gallery,#Brand, #contact {
-        height : 700px;
-        text-align : center;
-      }
-
-      html{
-        scroll-behavior : smooth;
-      }
-
-      .parallax{
-        background-image : url("image/bg.jpg");
-        
-        background-attachment : fixed;
-        background-position : center;
-        background-repeat : no-repeat;
-        background-size : cover;
-      }
-      .parallax2{
-        background-image : url("image/3.jpg");
-        
-        background-attachment : fixed;
-        background-position : center;
-        background-repeat : no-repeat;
-        background-size : cover;
-      }
-
-      footer{
-        background-color : #004479;
-      }
-      .col-sm-4{
-        color : white;
-      }
-      .footer-copyright {
-        padding : 30px;
-        margin : 10px;
-        color : white;
-      }
-      .col-4 {
-    width: 25%;
-    height: 320px;
-    border: 1px solid #ccc;
-    float: left;
-    padding: 10px;
-    box-sizing: border-box;
-}
-.box {
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 15px;
-    box-sizing: border-box;
-    margin: 30px 0 25px 0;
-    transition: all .5s ease;
-}
-.containers {
-    display:grid;
-    grid-template-columns: 66% auto;
-    padding: 4em 1em;
-}
-.isi {
-    display:grid;
-    list-style-type:none;
-    margin:0;padding:0;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
-}
-.isian{ 
-
-  margin-left : 25px;
-    width:150p0x;
-    justify-self:center;
-
-}
-.abouttext {
-  color : white;
-  margin-top 30px;
-  padding : 30px;
-}
-.card {
-  margin-right : 0px;
-  margin-top: 75px;
-  padding : 0px;
-}
-    </style>
     </head>
     <body data-spy="scroll" data-target="#navbar">
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
@@ -176,11 +28,12 @@
     <li class="nav-item ">
             <a class="nav-link" href="#home">Home</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#gallery">Gallery</a>
           </li>
-          
+          <li class="nav-item ">
+            <a class="nav-link" href="#Brand">Brands</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
@@ -218,7 +71,7 @@
   </section>
 
   <section id="gallery" class="parallax">
-  <h1>Gallery</h1>
+  <h1><u>Gallery</u></h1>
     <div class="containers">
       <div class="row">
         <div class="col-md-8 mx-auto text-center">
@@ -254,33 +107,33 @@
     </div>
   </section>
   <section id= "Brand" >
-  <h1>Brand</h1>
+  <h1><u>Brands</u></h1>
     <div class="containers">
       <div class="row">
         <div class="col-md-8 mx-auto text-center">
           <ul class="isi">
                 <li class="isian">
-                <img src="image/toyota1.jpg" alt="">
+                <a href="#"><img src="image/toyota1.jpg" alt=""></a>
                 <p>TOYOTA</p>
                 </li>
                 <li class="isian">
-                <img src="image/nissan.jpg" alt="">
+                <a href="#"><img src="image/nissan.jpg" alt=""></a>
                 <p>NISSAN</p>
                 </li>
                 <li class="isian">
-                <img src="image/subaru1.jpg" alt="">
+                <a href="#"><img src="image/subaru1.jpg" alt=""></a>
                 <p>SUBARU</p>
                 </li>
                 <li class="isian">
-                <img src="image/ferrari.jpg" alt="">
+                <a href="#"><img src="image/ferrari.jpg" alt=""></a>
                 <p>FERRARI</p>
                 </li>
                 <li class="isian">
-                <img src="image/lamborghini.png" alt="">
+                <a href="#"><img src="image/lamborghini.png" alt=""></a>
                 <p>LAMBORGINI</p>
                 </li>
                 <li class="isian">
-                <img src="image/isuzu.jpg" alt="">
+                <a href="#"><img src="image/isuzu.jpg" alt=""></a>
                 <p>ISUZU</p>  
                 </li>
             </ul>
@@ -295,7 +148,7 @@
       <div class="row">
         <div class="col-md-8 mx-auto text-center">
         <div class="abouttext">
-          <h1>This Is About Page</h1>
+          <h1 style="text-align : center;"><u>About Us</u></h1>
           <p>We are a website that provides information or various things about the automotive world, especially about cars with the theme of an automotive catalog. Here we can also be called an e-Catalog. This website was created to make it easier for users to find out various information about the automotive world, especially about the various types and models of a car. </p>
           <br/>
           </div>
@@ -308,7 +161,7 @@
     <div class="container">
       <div class="row pt-4 mb-4">
         <div class="col text-center">
-          <h2>Contact</h2>
+          <h2><u>Contact</u></h2>
         </div>
       </div>
       <div class="row justify-content-center">
@@ -365,7 +218,7 @@
       </script>
 
  <!-- FOOTER CONTENT -->
- <footer id="foot" class="page-footer bg-dark">
+ <footer id="foot" class="page-footer bg-grey">
     <div class="headfoot">
       <div class="container">
         <div class="row py-4 d-flex align-items-center">
