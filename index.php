@@ -58,7 +58,7 @@
         padding-bottom : 0px;
       }
 
-      #about, #gallery, #contact {
+      #about, #gallery,#Brand, #contact {
         height : 700px;
         text-align : center;
       }
@@ -224,6 +224,42 @@
                 <li class="isian">
                 <img src="image/corolla.jpg" alt="">
                 <p>Toyota Corolla Cross</p>  
+                </li>
+            </ul>
+          <br/>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id= "Brand" >
+  <h1>Brand</h1>
+    <div class="containers">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <ul class="isi">
+                <li class="isian">
+                <img src="image/toyota1.jpg" alt="">
+                <p>TOYOTA</p>
+                </li>
+                <li class="isian">
+                <img src="image/nissan.jpg" alt="">
+                <p>NISSAN</p>
+                </li>
+                <li class="isian">
+                <img src="image/subaru1.jpg" alt="">
+                <p>SUBARU</p>
+                </li>
+                <li class="isian">
+                <img src="image/ferrari.jpg" alt="">
+                <p>FERRARI</p>
+                </li>
+                <li class="isian">
+                <img src="image/lamborghini.png" alt="">
+                <p>LAMBORGINI</p>
+                </li>
+                <li class="isian">
+                <img src="image/isuzu.jpg" alt="">
+                <p>ISUZU</p>  
                 </li>
             </ul>
           <br/>
